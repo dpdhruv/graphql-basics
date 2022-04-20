@@ -26,5 +26,5 @@ server.applyMiddleware({
 const httpServer = http.createServer(app);
 
 httpServer.listen(4000, () => {
-  console.info(`scavenger ready at http://localhost:4000`);
+  console.info(`Graphql server is ready at http://localhost:4000`);
 });
